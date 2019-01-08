@@ -1,0 +1,115 @@
+﻿* {
+   
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.no-pad {
+    padding-top: 5px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.logo {
+    width: 400px;
+}
+
+/* On screens that are 600px or less, set the logo width to 100% */
+@media screen and (max-width: 600px) {
+    .logo {
+        min-width: 100%;
+    }
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-wrap {
+    vertical-align: central;
+}
+
+    .jumbotron h2 {
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0;
+        color: #F4A460;
+    }
+
+    .jumbotron h3 {
+        margin: 0 0 20px;
+        color: #F4A460;
+    }
+
+.tbox {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #BCAA71;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    .tbox:focus {
+        border: 3px solid #636466;
+    }
+
+    .red{
+        border: 2px solid red;
+    }
+
+.btn-success {
+    border-color: #BCAA71;
+    background-color: #BCAA71;
+}
+    .btn-success:hover {
+        color: #E3DCCF;
+        background-color: #BCAA77;
+        border: 1px solid #BCAA71;
+    }
+
+.txt-success {
+    color: #BCAA77;
+    text-decoration: underline;
+}
+.mb-1 {
+    margin-bottom: 5px;
+}
+.vl {
+    border-left: 2px solid red;
+    /*height: 100px;*/
+    line-height: 100%;
+}
