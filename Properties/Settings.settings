@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SMSU_PO.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionPO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">server=localhost;user id=root;port=3406;sslMode=none;database=purchaseorder</Value>
+    </Setting>
+    <Setting Name="ConnectionWorld" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">server=localhost;user id=root;pwd=password;port=3307;database=world</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
